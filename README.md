@@ -36,10 +36,10 @@ Most repos are private.
 
 [proxi.cc.cd](https://proxi.cc.cd) — personal site
 <br>
-[Telegram](https://t.me/tanpoint) — DM me
+[Telegram](https://t.me/tanpoint) — @tanpoint
 <br>
-[Discord · Inference Hub](https://discord.gg/wQzgDVpAg5) — dev community, shared API access and inference
+[Discord — Inference Hub](https://discord.gg/wQzgDVpAg5) — shared API access and inference
 
 ---
 
-<sub>Commits here are SSH-signed and show as <em>Verified</em>. · <img alt="commits: SSH signed" src="https://img.shields.io/badge/commits-SSH%20signed-334155?style=flat-square"></sub>
+<sub>Commits are SSH-signed. · <img alt="commits: SSH signed" src="https://img.shields.io/badge/commits-SSH%20signed-334155?style=flat-square"></sub>
