@@ -3,17 +3,15 @@
   <img src="./assets/banner-light.svg" alt="Isal Nevada — backend and network developer" width="100%">
 </picture>
 
-I build backend services and network tooling. Mostly **Go**, increasingly **Rust**, and **TypeScript** when there's a UI worth shipping. The work tends to sit close to the metal: single-binary CLI tools, SSH reverse tunnels, self-hosted infrastructure on Proxmox, and the glue that keeps it running unattended.
+I build backend services and network tooling. Mostly Go, more Rust lately, TypeScript for UIs. Most of the repos are single-binary CLI tools, SSH reverse tunnels, and services running on Proxmox hosts that stay up without me.
 
-Most of it is private. What I can show:
+Most repos are private.
 
 ### Selected work
 
-**[portfolio](https://github.com/malasahjagotwin/portfolio)** — bilingual (id/en) personal site on the Next.js 16 App Router. Cache Components, Partial Prerendering, verified against WCAG AA rather than assumed.
+**[portfolio](https://github.com/malasahjagotwin/portfolio)** — Indonesian and English personal site on the Next.js 16 App Router, using Cache Components and Partial Prerendering. Checked against WCAG AA with the ratios in the README.
 <br>
-**[proxmox-reverse-ssh](https://github.com/malasahjagotwin/proxmox-reverse-ssh)** — expose Proxmox CT/VM services behind NAT through a public VPS. systemd units, auto-reconnect, hardened sshd.
-<br>
-**[agent](https://github.com/malasahjagotwin/agent)** — bot client + installer.
+**[proxmox-reverse-ssh](https://github.com/malasahjagotwin/proxmox-reverse-ssh)** — an SSH reverse tunnel from a Proxmox host to a public VPS, so CTs and VMs behind NAT stay reachable. Runs as systemd units, reconnects when the link drops, ships a non-default sshd config.
 
 ### Stack
 
@@ -36,12 +34,12 @@ Most of it is private. What I can show:
 
 ### Elsewhere
 
-[proxi.cc.cd](https://proxi.cc.cd) — site, in Indonesian and English
+[proxi.cc.cd](https://proxi.cc.cd) — personal site
 <br>
-[Telegram](https://t.me/tanpoint) — the fastest way to reach me
+[Telegram](https://t.me/tanpoint) — DM me
 <br>
-[Discord · Inference Hub](https://discord.gg/wQzgDVpAg5) — a community for people building with code and AI
+[Discord · Inference Hub](https://discord.gg/wQzgDVpAg5) — dev community, shared API access and inference
 
 ---
 
-<sub>Commits here are SSH-signed, so every one carries the <em>Verified</em> badge. · <img alt="commits: SSH signed" src="https://img.shields.io/badge/commits-SSH%20signed-334155?style=flat-square"></sub>
+<sub>Commits here are SSH-signed and show as <em>Verified</em>. · <img alt="commits: SSH signed" src="https://img.shields.io/badge/commits-SSH%20signed-334155?style=flat-square"></sub>
