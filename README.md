@@ -38,7 +38,9 @@ Most of it is private. What I can show:
 
 [proxi.cc.cd](https://proxi.cc.cd) — site, in Indonesian and English
 <br>
-[Discord](https://discord.gg/xeApeeRBkB) — where I actually answer
+[Telegram](https://t.me/tanpoint) — the fastest way to reach me
+<br>
+[Discord · Inference Hub](https://discord.gg/wQzgDVpAg5) — a community for people building with code and AI
 
 ---
 
