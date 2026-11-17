@@ -2,41 +2,41 @@
   <title id="banner-title">Isal Nevada — backend and network developer</title>
 
   <defs>
-    <linearGradient id="veil" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#0284C7" stop-opacity="0.02" />
-      <stop offset="0.55" stop-color="#0284C7" stop-opacity="0.10" />
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#0284C7" stop-opacity="0.07" />
+      <stop offset="0.5" stop-color="#0284C7" stop-opacity="0" />
       <stop offset="1" stop-color="#0284C7" stop-opacity="0" />
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-opacity="0.55" />
+      <path d="M32 0H0V32" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-opacity="0.7" />
     </pattern>
   </defs>
 
   <rect width="1280" height="320" fill="#F8FAFC" />
   <rect width="1280" height="320" fill="url(#grid)" />
-  <rect width="1280" height="320" fill="url(#veil)" />
+  <rect width="1280" height="320" fill="url(#glow)" />
 
   <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace">
-    <text x="80" y="116" font-size="19" fill="#0369A1">$ whoami</text>
+    <text x="80" y="112" font-size="19" fill="#0369A1">$ whoami</text>
   </g>
 
   <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
-    <text x="80" y="188" font-size="66" font-weight="600" letter-spacing="-1.5" fill="#0F172A">Isal Nevada</text>
+    <text x="80" y="186" font-size="66" font-weight="600" letter-spacing="-1.5" fill="#0F172A">Isal Nevada</text>
     <text x="80" y="262" font-size="22" fill="#64748B">Backend &amp; network developer — Go, Rust, TypeScript</text>
   </g>
 
-  <rect x="80" y="212" width="72" height="3" rx="1.5" fill="#0284C7" />
+  <rect x="80" y="210" width="72" height="3" rx="1.5" fill="#0284C7" />
 
-  <g stroke="#CBD5E1" stroke-width="1.5" fill="none">
-    <path d="M966 176 L1054 96 M966 176 L1092 214 M1054 96 L1180 140 M1092 214 L1180 140 M1092 214 L1180 246" />
+  <g stroke="#94A3B8" stroke-width="1.5" fill="none">
+    <path d="M916 168 L1018 92 M916 168 L1046 236 M1018 92 L1140 124 M1046 236 L1140 124 M1046 236 L1200 230 M1140 124 L1200 230" />
   </g>
+  <path d="M916 168 L1140 124" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="7 7" stroke-opacity="0.5" fill="none" />
+
   <g fill="#FFFFFF" stroke="#0369A1" stroke-width="2.5">
-    <circle cx="966" cy="176" r="7" />
-    <circle cx="1054" cy="96" r="5" />
-    <circle cx="1180" cy="246" r="5" />
+    <circle cx="916" cy="168" r="7" />
+    <circle cx="1018" cy="92" r="5" />
+    <circle cx="1140" cy="124" r="6" />
+    <circle cx="1200" cy="230" r="5" />
   </g>
-  <g fill="#0284C7">
-    <circle cx="1092" cy="214" r="8" />
-    <circle cx="1180" cy="140" r="6" />
-  </g>
+  <circle cx="1046" cy="236" r="9" fill="#0284C7" />
 </svg>
