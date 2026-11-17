@@ -11,7 +11,7 @@ Most repos are private.
 
 **[portfolio](https://github.com/malasahjagotwin/portfolio)** — Indonesian and English personal site on the Next.js 16 App Router, using Cache Components and Partial Prerendering. Checked against WCAG AA with the ratios in the README.
 <br>
-**[proxmox-reverse-ssh](https://github.com/malasahjagotwin/proxmox-reverse-ssh)** — an SSH reverse tunnel from a Proxmox host to a public VPS, so CTs and VMs behind NAT stay reachable. Runs as systemd units, reconnects when the link drops, ships a non-default sshd config.
+**[proxmox-reverse-ssh](https://github.com/malasahjagotwin/proxmox-reverse-ssh)** — an SSH reverse tunnel from a Proxmox host to a public VPS, so CTs and VMs behind NAT stay reachable. Runs as systemd units, reconnects when the link drops. Ships an [sshd hardening config](https://github.com/malasahjagotwin/proxmox-reverse-ssh/blob/main/docs/sshd-hardening.conf) with password auth disabled and root login restricted.
 
 ### Stack
 
@@ -42,4 +42,4 @@ Most repos are private.
 
 ---
 
-<sub>Commits are SSH-signed. · <img alt="commits: SSH signed" src="https://img.shields.io/badge/commits-SSH%20signed-334155?style=flat-square"></sub>
+<sub>Commits are SSH-signed.</sub>
