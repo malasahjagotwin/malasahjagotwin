@@ -3,7 +3,7 @@
   <img src="./assets/banner-light.svg" alt="Isal Nevada — backend and network developer" width="100%">
 </picture>
 
-I build backend services and network tooling. Mostly Go, more Rust lately, TypeScript for UIs. Most of the repos are single-binary CLI tools, SSH reverse tunnels, and services running on Proxmox hosts that stay up without me.
+I build backend services and network tooling. Mostly Go, more Rust lately, TypeScript for UIs, Node.js for orchestration. Most of the repos are single-binary CLI tools, SSH reverse tunnels, and services running on Proxmox hosts that stay up without me.
 
 Most repos are private.
 
@@ -12,6 +12,8 @@ Most repos are private.
 **[portfolio](https://github.com/malasahjagotwin/portfolio)** — Indonesian and English personal site on the Next.js 16 App Router, using Cache Components and Partial Prerendering. Checked against WCAG AA with the ratios in the README.
 <br>
 **[proxmox-reverse-ssh](https://github.com/malasahjagotwin/proxmox-reverse-ssh)** — an SSH reverse tunnel from a Proxmox host to a public VPS, so CTs and VMs behind NAT stay reachable. Runs as systemd units, reconnects when the link drops. Ships an [sshd hardening config](https://github.com/malasahjagotwin/proxmox-reverse-ssh/blob/main/docs/sshd-hardening.conf) with password auth disabled and root login restricted.
+<br>
+**[rapidreset-api](https://github.com/malasahjagotwin/rapidreset-api)** — zero-dependency Node.js broker and remote-worker runtime for HTTP/2 rapid reset jobs: argv-based job protocol, capacity-aware dispatch, per-job watchdogs, and cancel handling.
 
 ### Stack
 
@@ -21,6 +23,7 @@ Most repos are private.
   <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img alt="C" src="https://img.shields.io/badge/C-334155?style=flat-square&logo=c&logoColor=38BDF8"></a>
   <a href="https://www.gnu.org/software/bash/"><img alt="Bash" src="https://img.shields.io/badge/Bash-334155?style=flat-square&logo=gnubash&logoColor=38BDF8"></a>
   <a href="https://www.typescriptlang.org"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-334155?style=flat-square&logo=typescript&logoColor=38BDF8"></a>
+  <a href="https://nodejs.org"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-334155?style=flat-square&logo=nodedotjs&logoColor=38BDF8"></a>
 </p>
 
 <p>
